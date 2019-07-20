@@ -18,7 +18,7 @@ public class ObjectBool {
         setValue = _set(value);
     }
 
-    //sorry to lazy to type all that Optional bullshit
+    //sorry 2damn lazy to type all that Optional bullshit
     private <T> Optional<T> opt(T t) {return Optional.of(t);}
     private Optional noopt() {return Optional.empty();}
 
